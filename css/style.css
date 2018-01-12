@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.board > h1 {
+	text-align: center;
+}
+
+.create-column {
+	border-radius: 20%;
+	padding: 20px;
+	margin: 20px;
+	margin-left: 45%;
+}
+
+.column-container {
+	margin: auto;
+}
+
+.column {
+	background-color: grey;
+	float: left;
+	min-height: 50%;
+	min-width: 33.3%;
+	text-align: center;
+	border: 3px solid black;
+	position: relative;
+}
+
+.column-card-list {
+	position: relative;
+}
+
+.btn-delete {
+	position: absolute;
+	top: 25px;
+	right: 130px;
+}
+
+.add-card {
+	border-radius: 20%;
+
+}
+.btn-card-delete {
+	float: right;
+	height: 21px;
+	font-size: 11px;
+	font-weight: 600;
+}
+
+.card {
+	margin: 10px;
+	background-color: #b5b5b5;
+}
